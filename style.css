@@ -1,0 +1,39 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body
+{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div
+{
+    text-align: center;
+}
+
+label 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+  
+input 
+{
+    margin-left: 10px;
+}
+
+button
+{
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 5px 5px 5px 5px;
+}
